@@ -1,0 +1,141 @@
+:root {
+    --color-grey-900: #141414;
+    --color-grey-800: #1f1f1f;
+    --color-grey-700: #333333;
+    --color-green: #c4f82a;
+    --color-white: #ffffff;
+    --space-500: 40px;
+    --space-300: 24px;
+    --space-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+}
+@font-face {
+  font-family:'Inter Regular';
+  src: url(assets/fonts/static/Inter-Regular.ttf)
+}
+@font-face {
+  font-family: 'Inter Bold';
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: 'Inter Bolder';
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+.text-preset-1 {
+    font-size: var(--space-300);
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-family: 'Inter Bold';
+}
+.text-preset-2 {
+   font-size: 14px;
+   line-height: 150%;
+   letter-spacing: 0px;
+   font-family: 'Inter Regular';
+} 
+.text-preset-2-bold {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-family: 'Inter Bolder';
+}
+ 
+
+  body{
+    background-color: var(--color-grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .card{
+    width: 375px;
+    background-color: var(--color-grey-800);
+    border-radius: 12px;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  .profile-pic{
+    width: 88px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .name{
+    color:  var(--color-white);
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin-top: var(--space-300);
+  }
+  .description{
+    display: block;
+    color: var(--color-green);
+    text-align: center;
+    display: block;
+  }
+.bio{
+    color: var(--color-white);
+    text-align: center;
+    display: block;
+    margin: var(--space-300) var(--space-300);
+}
+.github {
+  background-color: var(--color-grey-700);
+  padding: var(--space-150);
+  border-radius: var(--space-100);
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: var(--space-200);
+  text-decoration: none;
+}
+.frontend-mentor {
+  background-color: var(--color-grey-700);
+  padding: var(--space-150);
+  border-radius: var(--space-100);
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: var(--space-200);
+  text-decoration: none;
+}
+.linkedin{
+  background-color: var(--color-grey-700);
+  padding: var(--space-150);
+  border-radius: var(--space-100);
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: var(--space-200);
+  text-decoration: none;
+}
+.twitter{
+  background-color: var(--color-grey-700);
+  padding: var(--space-150);
+  border-radius: var(--space-100);
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: var(--space-200);
+  text-decoration: none;
+}
+.instagram {
+  background-color: var(--color-grey-700);
+  padding: var(--space-150);
+  border-radius: var(--space-100);
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.attribution{
+  bottom: 0;
+  position: absolute;
+  color: var(--color-white)
+}
+
