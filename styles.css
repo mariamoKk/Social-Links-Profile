@@ -55,7 +55,6 @@
   .card{
     width: auto;
     background-color: var(--color-grey-800);
-    border-radius: 12px;
     padding: var(--space-500);
     box-sizing: border-box;
     border-radius: var(--space-150)
@@ -133,7 +132,7 @@
   text-align: center;
   color: var(--color-white);
   text-decoration: none;
-  margin-bottom: var(--space-300)
+  
 }
 
 .attribution{
